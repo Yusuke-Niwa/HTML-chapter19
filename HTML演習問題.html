@@ -15,24 +15,44 @@
       <li><a href="よくある質問.html">よくある質問</a></li>
       <li><a href="お問い合わせ.html">お問い合わせ</a></li>
     </ul>
-    <img src="../img/mv.png" alt="mv">
+    <img src="img/mv.png" alt="mv">
     <p>最新のテクノロジーで<em>社会問題を解決</em></p>
     <h2>会社概要</h2>
-      <p>
-      &emsp;<strong>会社名</strong>&emsp;株式会社TECH<br>
-      &emsp;<strong>代表者</strong>&emsp;山田&ensp;太郎<br>
-      &emsp;<strong>所在地</strong>&emsp;東京都渋谷区神宮前<br>
-      &emsp;&ensp;<strong>設立</strong>&emsp;&ensp;2019/07/17<br>
-      &ensp;<strong>従業員数</strong>&ensp;100人<br>
-      &emsp;<strong>資本金</strong>&emsp;1000万円<br>
-      </p>
+      <table>
+        <tr>
+          <th>会社名</th><td>株式会社TECH</td>
+        </tr>
+        <tr>
+          <th>代表者</th><td>山田 太郎</td>
+        </tr>  
+        <tr>
+          <th>所在地</th><td>東京都渋谷区神宮前</td>
+        </tr>
+        <tr>
+          <th>設立</th><td>2019/07/17</td>
+        </tr>
+        <tr>
+          <th>従業員数</th><td>100人</td>
+        </tr>
+        <tr>
+          <th>資本金</th><td>1000万円</td>
+        </tr>
+      </table>
     <h2>お問い合わせ</h2>
       <form action="detail.html" method="post">
-        <label>
+        <label >
           会社名 <input type="text" name="companyName"><br>
+        </label>
+        <label>
           お名前 <input type="text" name="name"><br>
+        </label>
+        <label>
           メールアドレス <input type="email" name="adlles"><br>
-          お問い合わせ内容 <textarea name="textarea" id="" cols="75" rows="10"></textarea><br>
+        </label>
+        <label>
+          お問い合わせ内容 <textarea name="textarea" cols="75" rows="10"></textarea><br>
+        </label>
+        <label>
           <input type="submit" name="送信" value="お申し込み">
         </label>  
       </form>
