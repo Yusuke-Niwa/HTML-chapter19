@@ -7,55 +7,40 @@
   <title>HTML演習問題</title>
 </head>
 <body>
-  <h1>株式会社TECH</h1>
-    <ul>
-      <li><a href="ホーム.html">ホーム</a></li>
-      <li><a href="企業情報.html">企業情報</a></li>
-      <li><a href="会社概要.html">会社概要</a></li>
-      <li><a href="よくある質問.html">よくある質問</a></li>
-      <li><a href="お問い合わせ.html">お問い合わせ</a></li>
-    </ul>
-    <img src="img/mv.png" alt="mv">
-    <p>最新のテクノロジーで<em>社会問題を解決</em></p>
-    <h2>会社概要</h2>
-      <table>
-        <tr>
-          <th>会社名</th><td>株式会社TECH</td>
-        </tr>
-        <tr>
-          <th>代表者</th><td>山田 太郎</td>
-        </tr>  
-        <tr>
-          <th>所在地</th><td>東京都渋谷区神宮前</td>
-        </tr>
-        <tr>
-          <th>設立</th><td>2019/07/17</td>
-        </tr>
-        <tr>
-          <th>従業員数</th><td>100人</td>
-        </tr>
-        <tr>
-          <th>資本金</th><td>1000万円</td>
-        </tr>
-      </table>
-    <h2>お問い合わせ</h2>
+  <h1>キャッチコピー</h1>
+    <h2>about</h2>
+      <p>プCOACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです<br>
+      プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。
+      </p>
+    <h2>ブログ</h2>
+      <img src="img/blog__eyecatch1.jpg">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+      <img src="img/blog__eyecatch2.jpg">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+      <img src="img/blog__eyecatch3.jpg">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+    <h2>問い合わせ</h2>
       <form action="detail.html" method="post">
         <label >
-          会社名 <input type="text" name="companyName"><br>
-        </label>
-        <label>
-          お名前 <input type="text" name="name"><br>
+          名前 <input type="text" name="Name"><br>
         </label>
         <label>
           メールアドレス <input type="email" name="adlles"><br>
         </label>
         <label>
-          お問い合わせ内容 <textarea name="textarea" cols="75" rows="10"></textarea><br>
+          用件 <form action="detail.html" method="get">
+            <select name="select">
+              <option value="広告掲載について">広告掲載について</option>
+            </select>
+              </form>
         </label>
         <label>
-          <input type="submit" name="送信" value="お申し込み">
+          内容 <textarea name="textarea" cols="30" rows="8"></textarea><br>
+        </label>
+        <label>
+          <input type="submit" name="削除" value="削除"><input type="submit" name="送信" value="送信">
         </label>  
       </form>
-    <small>&copy; 2020 TECH inc.</small>
+    
 </body>
 </html>
